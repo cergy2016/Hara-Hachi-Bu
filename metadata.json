@@ -1,0 +1,6 @@
+{
+  "name": "The Hara Hachi Bu Meal Mindfulness Timer",
+  "description": "An interactive meal pacing guide and mindful eating companion based on the Japanese Hara Hachi Bu principle.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
