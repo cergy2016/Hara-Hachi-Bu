@@ -242,7 +242,7 @@ export default function App() {
 
       {/* Editorial Footer */}
       <footer className="h-16 border-t border-[#333333]/10 flex flex-col sm:flex-row items-center justify-between px-6 sm:px-10 text-[10px] uppercase tracking-widest font-sans font-bold opacity-60 max-w-6xl mx-auto w-full gap-2 sm:gap-0">
-        <div>Designed for ChungBooks.fr &bull; 腹八分目</div>
+        <div>Designed for <a href="https://chungbooks.fr" className="underline underline-offset-2 hover:opacity-100 hover:text-[#8A9A5B] transition-colors">ChungBooks.fr</a> &bull; 腹八分目</div>
         <div className="flex gap-6">
           <button
             onClick={() => setShowPhilosophy(true)}
