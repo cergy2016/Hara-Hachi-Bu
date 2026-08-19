@@ -1,5 +1,5 @@
 import React from 'react';
-import { Volume2, VolumeX, Code, BookOpen, Play, Pause, RotateCcw } from 'lucide-react';
+import { Volume2, VolumeX, Code, BookOpen, Play, Pause, RotateCcw, ArrowLeft } from 'lucide-react';
 import { TimerPhase } from '../types';
 
 interface HeaderProps {
@@ -88,7 +88,7 @@ export const Header: React.FC<HeaderProps> = ({
         </button>
 
         {/* Quick Toggles */}
-        <div className="flex items-center gap-3 border-l border-[#333333]/15 pl-4 ml-1">
+        <div className="flex items-center gap-3 border-l border-[#333333]/15 pl-4 ml-1"><a id="btn-back-to-chungbooks" href="https://chungbooks.fr/interactive-guides.html" className="hover:opacity-100 opacity-60 transition-opacity flex items-center gap-1.5 cursor-pointer text-[10px] hover:text-[#8A9A5B]" title="Back to Chung Books"><ArrowLeft size={13} /><span className="hidden sm:inline">Chung Books</span></a>
           <button
             id="btn-toggle-sound-editorial"
             onClick={onToggleSound}
